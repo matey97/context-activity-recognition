@@ -1,0 +1,30 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.contextactivityrecognition",
+    "tns-android": {
+      "version": "6.2.0"
+    },
+    "tns-ios": {
+      "version": "6.2.0"
+    }
+  },
+  "main": "app.js",
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "repository": "<fill-your-repository-here>",
+  "dependencies": {
+    "@nativescript/theme": "~2.2.0",
+    "nativescript-context-apis": "file:../../../Symptoms/Projects/nativescript-context-apis/src",
+    "nativescript-local-notifications": "^4.2.1",
+    "nativescript-vibrate": "^3.1.0",
+    "rxjs": "^6.6.2",
+    "tns-core-modules": "~6.2.0"
+  },
+  "devDependencies": {
+    "nativescript-dev-webpack": "~1.3.0",
+    "tns-platform-declarations": "^6.5.15",
+    "typescript": "~3.5.3"
+  },
+  "gitHead": "a6fec076a20f898feabb4466a2c411158c18a100",
+  "readme": "NativeScript Application"
+}
